@@ -20,7 +20,7 @@ contacts=[					#creating a database contacts with appropriate items in in
 }
 ]
 ##################################################################################################################################
-
+#
 @app.route("/all",methods=["GET"])
 def show_all():
 	return(jsonify(contacts))
